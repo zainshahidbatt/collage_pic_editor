@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+<androidx.cardview.widget.CardView
+    app:cardElevation="@dimen/_2sdp"
+    android:layout_width="wrap_content"
+    app:cardCornerRadius="@dimen/_20sdp"
+    android:layout_margin="@dimen/_3sdp"
+    android:layout_height="wrap_content">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:id="@+id/thumbnailView"
+            android:layout_width="@dimen/_115sdp"
+            android:layout_height="@dimen/_115sdp"
+            android:layout_alignParentLeft="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/gallery" />
+
+        <TextView
+            android:id="@+id/titleView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/thumbnailView"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="11dp"
+            app:layout_constraintEnd_toEndOf="@id/thumbnailView"
+          android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginBottom="@dimen/_3sdp"
+            android:text="Camera"
+            app:layout_constraintStart_toStartOf="@id/thumbnailView"
+            app:layout_constraintTop_toBottomOf="@id/thumbnailView"
+            android:layout_marginEnd="@dimen/_9sdp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+
+        <TextView
+
+            app:layout_constraintTop_toTopOf="@id/titleView"
+            app:layout_constraintBottom_toBottomOf="@id/titleView"
+            android:id="@+id/itemCountView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/thumbnailView"
+            app:layout_constraintStart_toEndOf="@id/titleView"
+            android:layout_toRightOf="@+id/titleView"
+            android:text="(2)"
+            android:textColor="#000000" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
+</FrameLayout>

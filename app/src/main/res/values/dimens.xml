@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="elevation">8dp</dimen>
+    <dimen name="dimen_16dp">16dp</dimen>
+    <dimen name="font_20sp">20sp</dimen>
+    <dimen name="font_16sp">16sp</dimen>
+    <dimen name="card_size">250dp</dimen>
+    <dimen name="dimen_32dp">32dp</dimen>
+    <dimen name="dimen_40dp">40dp</dimen>
+    <dimen name="dimen_8dp">8dp</dimen>
+    <dimen name="font_26sp">26sp</dimen>
+    <dimen name="image_medium_size">48dp</dimen>
+</resources>

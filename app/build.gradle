@@ -1,0 +1,128 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+    id 'kotlin-android'
+    id 'kotlin-kapt'
+    id 'androidx.navigation.safeargs.kotlin'
+    id 'kotlin-android-extensions'
+}
+
+android {
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "com.example.piceditor"
+        minSdk 21
+        targetSdk 33
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        renderscriptTargetApi 21
+        renderscriptSupportModeEnabled true
+    }
+
+    buildFeatures {
+        viewBinding true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+    buildFeatures{
+        viewBinding = true
+    }
+}
+
+dependencies {
+
+    implementation 'androidx.core:core-ktx:1.10.1'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    testImplementation 'junit:junit:'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+
+    implementation 'com.google.android.material:material:1.6.0'
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.21"
+
+//    // Dagger Hilt
+//    implementation "com.google.dagger:hilt-android:${rootProject.ext.dagger_hilt_version}"
+//    kapt "com.google.dagger:hilt-android-compiler:${rootProject.ext.dagger_hilt_version}"
+
+    // Lifecycle aware components(ViewModel,LiveData etc...)
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:${rootProject.ext.lifecycle_version}"
+    implementation "androidx.lifecycle:lifecycle-runtime-ktx:${rootProject.ext.lifecycle_version}"
+
+    // Coroutine for Activity,Fragment & ViewModel.
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:${rootProject.ext.coroutine_version}"
+    implementation "androidx.lifecycle:lifecycle-runtime-ktx:${rootProject.ext.coroutine_version}"
+
+//    // KTX artifacts for Activity and Fragment
+//    implementation "androidx.activity:activity-ktx:1.3.1"
+//    implementation "androidx.fragment:fragment-ktx:1.3.6"
+
+//    // Material Design
+//    implementation 'com.google.android.material:material:1.5.0-alpha03'
+
+//    // Navigation Component
+//    implementation "androidx.navigation:navigation-fragment-ktx:${rootProject.ext.nav_version}"
+//    implementation "androidx.navigation:navigation-ui-ktx:${rootProject.ext.nav_version}"
+
+    // Glide
+    implementation 'com.github.bumptech.glide:glide:4.15.1'
+    kapt 'com.github.bumptech.glide:compiler:4.14.2'
+
+    // Timber
+    implementation 'com.jakewharton.timber:timber:5.0.1'
+
+    // DS Photo Editor SDK
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation(name:'ds-photo-editor-sdk-v10', ext:'aar')
+
+    // SDK related dependencies
+    implementation 'io.reactivex.rxjava2:rxjava:2.2.21'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'
+
+    //Lottie
+    implementation 'com.airbnb.android:lottie:5.2.0'
+
+    //collage
+    implementation 'jp.co.cyberagent.android:gpuimage:2.1.0'
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+
+    implementation 'com.github.bumptech.glide:glide:4.15.1'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.14.2'
+
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation 'com.isseiaoki:simplecropview:1.1.8'
+    implementation "com.vorlonsoft:androidrate:1.2.1"
+
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+
+    def multidex_version = "2.0.1"
+    implementation "androidx.multidex:multidex:$multidex_version"
+
+    implementation 'com.intuit.ssp:ssp-android:1.1.0'
+    implementation 'com.intuit.sdp:sdp-android:1.1.0'
+
+
+
+}

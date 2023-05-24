@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="secondaryTextColor">#D3CECD</color>
+
+    <color name="colorPrimary">#1C1C1C</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <!--<color name="colorAccent">#D81B60</color>-->
+    <color name="colorAccent">#FAC53B</color>
+    <color name="hint">#A8A8A8</color>
+    <color name="overlay">#AA1C1C1C</color>
+    <color name="windowBackground">#1C1C1C</color>
+    <color name="transBackground">#CC1C1C1C</color>
+    <color name="transparent">#00000000</color>
+    <color name="clr_bg">#80232222</color>
+    <color name="reset_bg_normal_color">#3a3636</color>
+    <color name="reset_bg_pressed_color">#191818</color>
+
+    <color name="mainbg">#1D2E5A</color>
+    <!--Secondary colors-->
+    <color name="colorTranslucent">#50000000</color>
+    <color name="lightColor">#64E71A</color>
+    <color name="lightGray">#D1D0D0</color>
+    <color name="darkBrown">#2B2828</color>
+    <color name="ic_logo_bg">#334C5B</color>
+
+    <color name="oslo_grey">#83868b</color>
+    <color name="malibu">#4ebeff</color>
+    <color name="bombay">#b7b9bc</color>
+    <color name="woodsmoke">#0f1011</color>
+    <color name="lochmara">#007dc5</color>
+    <color name="mischka">#e6e7e9</color>
+    <color name="shuttle_grey">#515357</color>
+    <color name="santas_grey">#9d9fa4</color>
+
+
+    <color name="orange">#ff7b25</color>
+    <color name="bluishRandom">#6f6acf</color>
+    <color name="purple_type">#6b5b95</color>
+    <color name="bluish">#80ced6</color>
+    <color name="brown">#a96e5b</color>
+    <color name="light_blue">#bfe2fe</color>
+    <color name="btn_color">#61649b</color>
+    <color name="successful_color">#c0e0d3</color>
+    <color name="background">#f2f2f2</color>
+
+    <color name="colorEditText">#fff</color>
+
+    <color name="light_gray">#a2a2a2</color>
+    <color name="highlight_text_color">#2196F3</color>
+    <color name="black_60">#99000000</color>
+
+    <color name="primary">#007dc5</color>
+
+    <color name="ceulean_two">#007dc5</color>
+    <color name="Quaternary_04">#ffd33f</color>
+    <color name="Tertiary_04">#f9f9f9</color>
+    <color name="white_two">#f3f3f3</color>
+    <color name="black_25">#0D000000</color>
+    <color name="black_login">#000000</color>
+    <color name="black_0_2">#33000000</color>
+    <color name="black_0_3">#4c000000</color>
+    <color name="black_0_9">#e6000000</color>
+
+    <!-- This color remains white in both dark and light mode -->
+    <color name="force_white">#FFF</color>
+    <color name="force_iron">#d2d3d5</color>
+    <color name="force_iron_alpha_30">#4cd2d3d5</color>
+    <color name="force_black_alpha_40">#66000000</color>
+    <color name="force_black_alpha_85">#D9000000</color>
+    <color name="force_black_alpha_30">#4D000000</color>
+    <color name="force_concrete">#f3f3f3</color>
+    <color name="force_black_0_2">#33000000</color>
+    <color name="force_black_0_3">#4c000000</color>
+    <color name="force_mischka">#e6e7e9</color>
+    <color name="force_bombay">#b7b9bc</color>
+    <color name="force_woodsmoke">#0f1011</color>
+    <color name="force_white_alpha_10">#19ffffff</color>
+    <color name="force_black_alpha_10">#1A000000</color>
+    <color name="force_oslo_grey">#83868b</color>
+    <color name="force_blur_bg">#E67C7C7C</color>
+
+    <color name="dashboard_bg">#FFF</color>
+    <color name="white_0">#1AFFFFFF</color>
+
+    <color name="nevada">#6a6c71</color>
+    <color name="catskill_white">#e5e9f2</color>
+    <color name="daintree">#00273d</color>
+    <color name="astronaut_blue">#003c5f</color>
+    <color name="orient">#005281</color>
+    <color name="allports">#0067a3</color>
+    <color name="cerulean">#0093e7</color>
+    <color name="dodger_blue">#0aa5ff</color>
+    <color name="denim">#2cb2ff</color>
+    <color name="shark">#202122</color>
+    <color name="tuna">#303134</color>
+    <color name="progress_bar_background">#303134</color>
+    <color name="abbey">#414245</color>
+    <color name="white_ssdob">#FFFFFF</color>
+
+    <color name="iron">#d2d3d5</color>
+    <color name="dashboard_iron">#d2d3d5</color>
+    <color name="geyser">#d8dde6</color>
+    <color name="concrete">#f3f3f3</color>
+    <color name="concrete_ssdob">#f3f3f3</color>
+    <color name="concrete_dashboard">#f3f3f3</color>
+    <color name="alabaster">#f9f9f9</color>
+
+    <color name="mountain_meadow">#16db93</color>
+    <color name="bright_sun">#ffd33f</color>
+    <color name="maroon">#7b0a00</color>
+    <color name="coral">#fd5648</color>
+    <color name="sweet_pink">#fdaca6</color>
+    <color name="mine_shaft">#1f1f1f</color>
+    <color name="tandora">#2d2d2d</color>
+    <color name="emperor">#3b3b3b</color>
+    <color name="scorpion">#4a4a4a</color>
+    <color name="dove_grey">#5a5a5a</color>
+    <color name="boulder">#6a6a6a</color>
+    <color name="dusty_grey">#7b7b7b</color>
+    <color name="silver_chalice">#8c8c8c</color>
+    <color name="mercury">#9d9d9d</color>
+    <color name="nobel">#afafaf</color>
+    <color name="silver">#c1c1c1</color>
+    <color name="alto">#d3d3d3</color>
+    <color name="westar">#e6e6e6</color>
+    <color name="carrera">#f7f7f7</color>
+    <color name="light_grey">#f8f8f8</color>
+    <color name="warm_grey">#9b9b9b</color>
+    <color name="white_4">#66ffffff</color>
+    <color name="white_5">#80FFFFFF</color>
+    <color name="greyish">#a9a9a9</color>
+    <color name="peach">#ffaf83</color>
+    <color name="bubblegum">#ff75b9</color>
+    <color name="sky_blue">#74a2ff</color>
+    <color name="violet_pink">#eb4dff</color>
+    <color name="secondary_tint_06">#e6e7e9</color>
+    <color name="secondary_tint_02">#83868b</color>
+    <color name="secondary_shade_04">#0f1011</color>
+    <color name="secondary">#515357</color>
+    <color name="black_alpha_40">#66000000</color>
+    <color name="black_alpha_30">#4D000000</color>
+    <color name="dashboard_overlay">#4D000000</color>
+    <color name="strawberry">#fb2a3d</color>
+    <color name="warm_pink">#f45b69</color>
+    <color name="tealish">#2baec7</color>
+    <color name="rich_blue">#001cff</color>
+    <color name="green">#16db93</color>
+    <color name="pink">#ce51ff</color>
+    <color name="gold_yellow">#ffd622</color>
+    <color name="bright_blue">#006fff</color>
+    <color name="greenish_turquoise">#00ffac</color>
+    <color name="sun_yellow">#ffd622</color>
+    <color name="sun_yellow_qr">#ffd622</color>
+    <color name="bright_lavender_qr">#ce51ff</color>
+    <color name="force_sun_yellow_qr">#ffd622</color>
+    <color name="force_bright_lavender_qr">#ce51ff</color>
+    <color name="bright_lavender">#ce51ff</color>
+    <color name="seashell">#f1f1f1</color>
+    <color name="deep_lavender">#7f53a2</color>
+    <color name="booger">#9fba43</color>
+    <color name="concrete_0">#00f3f3f3</color>
+    <color name="aqua">#22fffd</color>
+    <color name="rouge">#9d1c20</color>
+    <color name="ptcl_green">#2baa65</color>
+    <color name="telenor_blue">#01acfa</color>
+    <color name="pumpkin">#ef7d00</color>
+    <color name="zong_green">#95bf0a</color>
+    <color name="hint_grey">#e7e7e7</color>
+    <color name="pending_yellow">#ffc500</color>
+    <color name="white_2">#66FFFFFF</color>
+    <color name="white_20">#33FFFFFF</color>
+    <color name="black_80">#CC000000</color>
+    <color name="blue_purple">#4200ff</color>
+    <color name="pale_peach">#ffdea8</color>
+    <color name="light_royal_blue">#304dff</color>
+    <color name="carnation_pink">#ff7eb0</color>
+    <color name="teal_700">#5ae3ff</color>
+    <color name="electric_purple">#8330ff</color>
+    <color name="white_alpha_10">#19ffffff</color>
+    <color name="iron_alpha_30">#4cd2d3d5</color>
+    <color name="pale_stale">#a9a9a9</color>
+    <color name="fi_black_30">#4D000000</color>
+    <!--    water wave color-->
+    <color name="green_trans">#AE0FC37A</color>
+    <!--        Round Progress Bar Color list Codes -->
+    <color name="round_corner_progress_bar_background_default">#5f5f5f</color>
+    <color name="round_corner_progress_bar_progress_default">#7f7f7f</color>
+    <color name="round_corner_progress_bar_secondary_progress_default">#00000000</color>
+    <array name="sample_progress_gradient">
+        <item>@color/greenish_turquoise</item>
+        <item>@color/bright_blue</item>
+    </array>
+</resources>
