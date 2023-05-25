@@ -31,6 +31,7 @@ class FilterCollageActivity : AppCompatActivity(), View.OnClickListener {
 
     private var mLastClickTime: Long = 0
 
+
     private fun checkClick() {
         if (SystemClock.elapsedRealtime() - mLastClickTime < 1000) {
             return
